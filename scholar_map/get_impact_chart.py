@@ -4,9 +4,9 @@ import os
 import jsonpickle
 import pandas as pd
 import tqdm
-from get_locations import LOCATIONS_FILE
-from get_scholar import OUTPUT_DIR, AUTHOR_FILE, AUTHORS_FILE
-from util import clean_filename, get_title
+from .get_locations import LOCATIONS_FILE
+from .get_scholar import OUTPUT_DIR, AUTHOR_FILE, AUTHORS_FILE
+from .util import clean_filename, get_title
 
 __author__ = 'Pedro Sequeira'
 __email__ = 'pedrodbs@gmail.com'
